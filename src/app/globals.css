@@ -3,3 +3,40 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@keyframes bounce-pop {
+  0% {
+    transform: scale(1) translateY(-8px);
+  }
+  25% {
+    transform: scale(1.06, 0.94) translateY(-10px);
+  }
+  45% {
+    transform: scale(0.96, 1.04) translateY(-4px);
+  }
+  65% {
+    transform: scale(1.03, 0.98) translateY(-7px);
+  }
+  82% {
+    transform: scale(0.99, 1.01) translateY(-8px);
+  }
+  100% {
+    transform: scale(1) translateY(-8px);
+  }
+}
+
+.interactive-image {
+  cursor: pointer;
+  transition:
+    transform 0.25s ease,
+    filter 0.25s ease;
+}
+
+.interactive-image:hover {
+  transform: translateY(-8px);
+  filter: drop-shadow(0 24px 32px rgb(0 0 0 / 0.18));
+}
+
+.interactive-image:active {
+  animation: bounce-pop 0.45s ease;
+}
