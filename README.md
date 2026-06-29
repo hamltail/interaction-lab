@@ -1,11 +1,18 @@
 # Interaction Lab
 
-UI/UXデザインやアニメーション、CMS連携、最新のWeb技術を自由に試すための個人ラボです。
+Design × Technology を自由に試す個人ラボです。
 
-新しいアイデアやデザイン、フロントエンド技術の検証、プロトタイプ制作を行う実験・研究用リポジトリです。
+## Live Demo
+
+🌐 [Webサイトを見る](https://lab.hamltail.dev/)
+
+## Design
+
+🎨 [Figmaデザインを見る](https://www.figma.com/design/aiLzbeBUsuAQrv9Da9ldEb/%E3%83%9D%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%AA%E3%82%AA?node-id=2038-128&t=dm9Xhg9TB8pPp4X2-1)
 
 ## Tech Stack
 
+- Figma
 - Next.js
 - TypeScript
 - Tailwind CSS
