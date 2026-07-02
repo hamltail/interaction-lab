@@ -1,6 +1,16 @@
 # Interaction Lab
 
-Design × Technology を自由に試す個人ラボです。
+探究とプロトタイピングを通じて、より良いデジタル体験をデザインする個人ラボです。
+
+現在はコンセプト設計を中心に進めており、アイデアの検証やモックアップ制作を行っています。
+
+## Current Status
+
+🚧 コンセプト・デザインフェーズ
+
+- Sketch
+- Wireframe
+- Mockup v0.1
 
 ## Live Demo
 
