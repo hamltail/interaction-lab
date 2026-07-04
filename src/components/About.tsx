@@ -1,18 +1,18 @@
 export default function About() {
   return (
     <section id="about" className="bg-brand-surface text-black">
-      <div className="mx-auto max-w-[1120px] py-24 text-center">
-        <h2 className="text-[32px] font-bold text-brand-primary">About</h2>
+      <div className="mx-auto max-w-[1120px] px-8 py-32 text-center">
+        <h2 className="font-en text-[32px] font-bold text-brand-primary">About</h2>
 
-        <p className="mt-12 text-[48px] leading-relaxed">
+        <h3 className="mt-20 text-[40px] leading-[1.7]">
           Interaction Lab は、
           <br />
           アイデアを形にして試す
           <br />
           Web のアトリエです。
-        </p>
+        </h3>
 
-        <p className="mt-10 text-[16px] leading-relaxed">
+        <p className="mt-16 text-[16px] leading-relaxed">
           デザインやプロトタイピング、インタラクションを通して、
           <br />
           小さく試して、少しずつ育てます。

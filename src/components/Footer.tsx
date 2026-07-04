@@ -5,8 +5,8 @@ export default function Footer() {
     <footer className="bg-black text-white">
       <div className="relative mx-auto max-w-[1120px] py-8">
         <div className="text-center">
-          <p className="text-xs">© 2026 Interaction Lab.</p>
-          <p className="mt-2 text-xs">Created by h-waji (hamltail)</p>
+          <p className="font-en text-xs">© 2026 Interaction Lab.</p>
+          <p className="mt-2 font-en text-xs">Created by h-waji (hamltail)</p>
         </div>
 
         <a

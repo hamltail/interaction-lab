@@ -3,8 +3,10 @@
 @theme {
   --color-brand-primary: #A060D1;
   --color-brand-surface: #FAF9FC;
+  --font-en: var(--font-barlow);
+  --font-ja: var(--font-noto);
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-noto);
 }
