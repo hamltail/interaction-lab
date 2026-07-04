@@ -2,7 +2,7 @@ import Header from "./Header";
 
 export default function Hero() {
   return (
-    <section id="hero" className="min-h-screen bg-[var(--color-black)] text-[var(--color-white)]">
+    <section id="hero" className="min-h-screen bg-black text-white">
       <Header />
 
       <div className="mx-auto flex min-h-[calc(100vh-80px)] max-w-[1120px] flex-col items-center justify-center text-center">

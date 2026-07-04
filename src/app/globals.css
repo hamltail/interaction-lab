@@ -1,10 +1,8 @@
 @import "tailwindcss";
 
-:root {
-  --color-primary: #A060D1;
-  --color-surface: #FAF9FC;
-  --color-black: #000000;
-  --color-white: #FFFFFF;
+@theme {
+  --color-brand-primary: #A060D1;
+  --color-brand-surface: #FAF9FC;
 }
 
 body {
