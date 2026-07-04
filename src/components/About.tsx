@@ -1,8 +1,8 @@
 export default function About() {
   return (
-    <section id="about" className="bg-white text-black">
+    <section id="about" className="bg-[var(--color-surface)] text-[var(--color-black)]">
       <div className="mx-auto max-w-[1120px] py-24 text-center">
-        <h2 className="text-[32px] font-bold text-purple-500">About</h2>
+        <h2 className="text-[32px] font-bold text-[var(--color-primary)]">About</h2>
 
         <p className="mt-12 text-[48px] leading-relaxed">
           Interaction Lab は、

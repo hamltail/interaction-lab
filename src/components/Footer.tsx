@@ -2,7 +2,7 @@ import { FaGithub } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="bg-black text-white">
+    <footer className="bg-[var(--color-black)] text-[var(--color-white)]">
       <div className="relative mx-auto max-w-[1120px] py-8">
         <div className="text-center">
           <p className="text-xs">© 2026 Interaction Lab.</p>
