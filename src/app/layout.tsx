@@ -9,7 +9,7 @@ const geist = Geist({
 export const metadata: Metadata = {
   title: "Interaction Lab",
   description:
-    "UI/UXデザインやアニメーション、CMS連携、Web技術を試すための実験・研究用プロジェクト",
+    "描いて、動かして、試すための Web のアトリエ",
 };
 
 export default function RootLayout({
