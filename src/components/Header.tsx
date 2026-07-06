@@ -8,7 +8,7 @@ const navItems = [
 
 export default function Header() {
   return (
-    <header className="mx-auto flex h-20 max-w-[1120px] px-8 items-center justify-between">
+    <header className="mx-auto flex h-20 w-full max-w-[304px] items-center justify-between md:max-w-[680px] xl:max-w-[1120px]">
       <a href="#hero" className="flex items-center gap-3">
         <Image
           src="/images/logo.svg"
@@ -16,10 +16,10 @@ export default function Header() {
           width={40}
           height={40}
         />
-        <span className="font-en text-[24px] font-bold">Interaction Lab</span>
+        <span className="font-en text-[20px] font-bold md:text-[24px]">Interaction Lab</span>
       </a>
 
-      <nav aria-label="Main navigation">
+      <nav aria-label="Main navigation" className="hidden md:block">
         <ul className="flex gap-8">
           {navItems.map((item) => (
             <li key={item.href}>

@@ -3,7 +3,7 @@ import { FaGithub } from "react-icons/fa";
 export default function Footer() {
   return (
     <footer className="bg-black text-white">
-      <div className="relative mx-auto max-w-[1120px] py-8">
+      <div className="mx-auto flex w-full max-w-[304px] flex-col items-center gap-4 py-8 md:max-w-[680px] md:relative xl:max-w-[1120px]">
         <div className="text-center">
           <p className="font-en text-xs">© 2026 Interaction Lab.</p>
           <p className="mt-2 font-en text-xs">Created by h-waji (hamltail)</p>
@@ -14,7 +14,7 @@ export default function Footer() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="GitHub"
-          className="absolute right-8 top-1/2 -translate-y-1/2 transition-opacity hover:opacity-80"
+          className="transition-opacity hover:opacity-80 md:absolute md:right-0 md:top-1/2 md:-translate-y-1/2"
         >
           <FaGithub size={24} />
         </a>
