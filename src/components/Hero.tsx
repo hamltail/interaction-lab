@@ -1,8 +1,10 @@
 import Header from "./Header";
+import CursorGlow from "./CursorGlow";
 
 export default function Hero() {
   return (
-    <section id="hero" className="min-h-screen bg-black text-white">
+    <section id="hero" className="relative min-h-screen overflow-hidden bg-black text-white">
+      <CursorGlow />
       <Header />
 
       <div className="mx-auto flex min-h-[calc(100vh-80px)] w-full max-w-[304px] flex-col items-center justify-center text-center md:max-w-[680px] xl:max-w-[1120px]">
