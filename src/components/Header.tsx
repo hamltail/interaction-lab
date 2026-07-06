@@ -50,9 +50,12 @@ export default function Header() {
             <li key={item.href}>
               <a
                 href={item.href}
-                className="font-en transition-colors hover:text-brand-primary"
+                className="group relative font-en transition-colors hover:text-brand-primary"
               >
-                {item.label}
+                <span className="relative">
+                  {item.label}
+                  <span className="absolute -bottom-1 left-0 h-[2px] w-0 bg-brand-primary transition-all duration-300 group-hover:w-full" />
+                </span>
               </a>
             </li>
           ))}
