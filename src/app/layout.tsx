@@ -1,15 +1,23 @@
 import type { Metadata } from "next";
-import { Geist } from "next/font/google";
+import { Barlow_Condensed, Noto_Sans_JP } from "next/font/google";
 import "./globals.css";
 
-const geist = Geist({
+const barlow = Barlow_Condensed({
   subsets: ["latin"],
+  weight: ["400", "700"],
+  variable: "--font-barlow",
+});
+
+const noto = Noto_Sans_JP({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+  variable: "--font-noto",
 });
 
 export const metadata: Metadata = {
   title: "Interaction Lab",
   description:
-    "UI/UXデザインやアニメーション、CMS連携、Web技術を試すための実験・研究用プロジェクト",
+    "描いて、動かして、試すための Web のアトリエ",
 };
 
 export default function RootLayout({
@@ -19,7 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja">
-      <body className={geist.className}>
+      <body className={`${barlow.variable} ${noto.variable}`}>
         {children}
       </body>
     </html>

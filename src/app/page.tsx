@@ -1,16 +1,13 @@
-import Image from "next/image";
+import About from "@/components/About";
+import Footer from "@/components/Footer";
+import Hero from "@/components/Hero";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen items-center justify-center bg-white">
-      <Image
-        className="interactive-image"
-        src="/images/under-construction.png"
-        alt="準備中"
-        width={512}
-        height={512}
-        priority
-      />
+    <main>
+      <Hero />
+      <About />
+      <Footer />
     </main>
   );
 }

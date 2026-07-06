@@ -1,16 +1,18 @@
 # Interaction Lab
 
-探究とプロトタイピングを通じて、より良いデジタル体験をデザインする個人ラボです。
+Interaction Lab は、描いて、動かして、試すための Web のアトリエです。
 
-現在はコンセプト設計を中心に進めており、アイデアの検証やモックアップ制作を行っています。
+現在はコンセプト設計とプロトタイプ開発を進めながら、アイデアを少しずつ形にしています。
 
 ## Current Status
 
-🚧 コンセプト・デザインフェーズ
+🚧 Phase: Concept & Design
+
+### Design Assets
 
 - Sketch
 - Wireframe
-- Mockup v0.1
+- Mockup (v0.2)
 
 ## Live Demo
 
@@ -27,6 +29,14 @@
 - TypeScript
 - Tailwind CSS
 - Vercel
+
+## Development
+
+このリポジトリでは、Interaction Lab **v0.2** のソースコードを公開しています。
+
+現在の開発はプライベートリポジトリで進めています。
+
+プロジェクトの思想や設計資料、README は、このリポジトリで継続的に公開・更新していきます。
 
 ## License
 
