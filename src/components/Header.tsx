@@ -9,6 +9,16 @@ const navItems = [
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const [showSorry, setShowSorry] = useState(false);
+  const handleComingSoonClick = (event: React.MouseEvent<HTMLAnchorElement>) => {
+    event.preventDefault();
+    setShowSorry(true);
+
+    setTimeout(() => {
+      setShowSorry(false);
+    }, 1200);
+  };
+
   return (
     <header className="relative mx-auto flex h-20 w-full max-w-[304px] items-center justify-between md:max-w-[680px] xl:max-w-[1120px]">
       <a href="#hero" className="flex items-center gap-3">
@@ -50,6 +60,11 @@ export default function Header() {
             <li key={item.href}>
               <a
                 href={item.href}
+                onClick={
+                  item.href === "#coming-soon"
+                    ? handleComingSoonClick
+                    : () => setIsOpen(false)
+                }
                 className="group relative font-en transition-colors hover:text-brand-primary"
               >
                 <span className="relative">
@@ -61,6 +76,13 @@ export default function Header() {
           ))}
         </ul>
       </nav>
+
+      {showSorry && (
+        <div className="absolute left-1/2 top-24 -translate-x-1/2 rounded-full bg-white/10 px-4 py-2 text-sm text-white shadow-[0_0_16px_#A060D1]">
+          ごめんちゃい 🥺 <br />
+          まだ制作中です。
+        </div>
+      )}
     </header>
   );
 }
