@@ -16,8 +16,7 @@ const noto = Noto_Sans_JP({
 
 export const metadata: Metadata = {
   title: "Interaction Lab",
-  description:
-    "描いて、動かして、試すための Web のアトリエ",
+  description: "描いて、動かして、試すための Web のアトリエ",
 };
 
 export default function RootLayout({
@@ -27,9 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja">
-      <body className={`${barlow.variable} ${noto.variable}`}>
-        {children}
-      </body>
+      <body className={`${barlow.variable} ${noto.variable}`}>{children}</body>
     </html>
   );
 }

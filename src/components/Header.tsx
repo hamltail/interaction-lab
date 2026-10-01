@@ -10,7 +10,9 @@ const navItems = [
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [showSorry, setShowSorry] = useState(false);
-  const handleComingSoonClick = (event: React.MouseEvent<HTMLAnchorElement>) => {
+  const handleComingSoonClick = (
+    event: React.MouseEvent<HTMLAnchorElement>,
+  ) => {
     event.preventDefault();
     setShowSorry(true);
 
@@ -28,7 +30,9 @@ export default function Header() {
           width={40}
           height={40}
         />
-        <span className="font-en text-[20px] font-bold md:text-[24px]">Interaction Lab</span>
+        <span className="font-en text-[20px] font-bold md:text-[24px]">
+          Interaction Lab
+        </span>
       </a>
 
       <button

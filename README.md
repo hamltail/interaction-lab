@@ -8,9 +8,9 @@ Interaction Lab は、描いて、動かして、試すための Web のアト�
 
 🧪 Phase: Concept & Design
 
-🖼️ Latest Release: No.007
+🖼️ Latest Release: No.008
 
-- Coming Soonメッセージに演出を追加しました。
+- Unity WebGL ゲーム「リバースじゃんけん」を追加しました。
 
 ### Design Assets
 
@@ -28,13 +28,12 @@ Interaction Lab は、描いて、動かして、試すための Web のアト�
 
 ## Tech Stack
 
-- CLIP STUDIO PAINT
-- Krita
-- Figma
-- Next.js
-- TypeScript
-- Tailwind CSS
-- Vercel
+| Category    | Tech Stack                          |
+| ----------- | ----------------------------------- |
+| 🎨 Creative | CLIP STUDIO PAINT / Krita / Figma   |
+| 🎮 Game     | Unity / C#                          |
+| 🌐 Web      | Tailwind CSS / TypeScript / Next.js |
+| 🚀 Deploy   | Vercel                              |
 
 ## Development
 
@@ -43,6 +42,10 @@ Interaction Lab は、描いて、動かして、試すための Web のアト�
 現在の開発はプライベートリポジトリで進めています。
 
 プロジェクトの思想や設計資料、README は、このリポジトリで継続的に公開・更新していきます。
+
+## Assets
+
+ゲーム内で使用している素材のクレジットは、各ゲーム内に記載しています。
 
 ## License
 
