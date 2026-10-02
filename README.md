@@ -8,9 +8,11 @@ Interaction Lab は、描いて、動かして、試すための Web のアト�
 
 🧪 Phase: Concept & Design
 
-🖼️ Latest Release: No.008
+🖼️ Latest Release: No.009
 
-- Unity WebGL ゲーム「リバースじゃんけん」を追加しました。
+- サイト全体のコード構成をリファクタリングしました。
+- 日本語 / English の言語切り替えに対応しました。
+- モバイルメニューの操作性とアニメーションを改善しました。
 
 ### Design Assets
 
@@ -40,8 +42,6 @@ Interaction Lab は、描いて、動かして、試すための Web のアト�
 このリポジトリでは、Interaction Lab **No.002** のソースコードを公開しています。
 
 現在の開発はプライベートリポジトリで進めています。
-
-プロジェクトの思想や設計資料、README は、このリポジトリで継続的に公開・更新していきます。
 
 ## Assets
 
