@@ -1,0 +1,14 @@
+{
+  "name": "interaction-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Web atelier for exploring interactive expressions, design, and experiments",
+  "author": "h-waji (hamltail)",
+  "license": "UNLICENSED",
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "^3.9.10"
+  }
+}
