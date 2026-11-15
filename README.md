@@ -1,14 +1,15 @@
 # Interaction Lab
 
-Interaction Lab は、描いて、動かして、試すための Web のアトリエです。
+Interaction Lab は、描いて、動かして、試すための創作のアトリエです。
 
-思いついたものを、自由につくっています。
+Web、ゲーム、音楽、映像など、ジャンルにとらわれず、思いついた表現を小さく形にして試しています。
 
 ## Latest Release
 
-### 🖼️ No.010
+### 🖼️ No.011
 
-- Heroの演出をちょっと変更しました。
+- 創作のアトリエとして、サイトのコンセプトを見直しました。
+- 生成AIを活用して制作したMV3作品を追加しました。
 
 ## Design Assets
 
@@ -31,6 +32,8 @@ Alternative: [Vercel Deployment](https://interaction-lab-dev.vercel.app/)
 | Category       | Technologies                                        |
 | -------------- | --------------------------------------------------- |
 | Creative       | CLIP STUDIO PAINT, Krita, Figma                     |
+| Music          | Generative AI                                       |
+| Video          | DaVinci Resolve                                     |
 | Game           | Unity, C#                                           |
 | Frontend       | TypeScript, React, Next.js, Tailwind CSS, next-intl |
 | Infrastructure | Vercel                                              |
@@ -45,6 +48,8 @@ Alternative: [Vercel Deployment](https://interaction-lab-dev.vercel.app/)
 2026年7月6日にNo.002をリリースし、以降の開発はプライベートリポジトリで進めています。
 
 その後、モバイル対応、UI・UX、アニメーション、多言語対応などの改善を継続し、2026年10月にはNo.010を公開しました。
+
+2026年11月には、音楽・映像などの創作表現にも領域を広げ、MV3作品を追加したNo.011を公開しました。
 
 GitHub上ではNo.002までのソースコードを2026年10月まで公開していましたが、現在は非公開としています。
 
