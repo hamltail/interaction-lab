@@ -79,4 +79,4 @@ No open-source license is granted for the original project materials. Third-part
 
 ## Author
 
-- h-waji (hamltail)
+- hamltail
